@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Conversor de Monedas</h1>
+    <div class="card">
+        <form id="conversor-form">
+            <label for="cantidad">Cantidad en pesos chilenos:</label>
+            <input type="number" id="cantidad" placeholder="Ingresa cantidad" required>
+    
+            <label for="moneda">Selecciona una moneda:</label>
+            <select id="moneda">
+                <option value="Dolar">Dolares</option>
+                <option value="Euro">Euros</option>
+            </select>
+
+            <button type="button" id="convertir">Convertir</button>
+        </form>
+    
+        <div id="resultado"  class="resultadoContenedor">
+        </div>
+    </div>
+    <script src="./assets/js/prueba.js"></script>
+</body>
+</html>
